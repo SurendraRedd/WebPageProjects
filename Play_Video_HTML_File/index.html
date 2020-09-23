@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>VideoFile Demo</title>
+  <link rel='stylesheet' href='https://cdn.plyr.io/3.6.2/plyr.css'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/luxonauta/luxa@1.0/dist/compressed/luxa.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<main>
+  <section>
+    <div class="lx-container-80">
+      <div class="lx-row">
+        <div id="videoColumn" class="lx-column is-8 is-flex">
+          <div class="lx-row">
+            <div class="video-header">
+              <h1>Play Video File in HTML page</h1>              
+              <a class="nav-toggle text-small is-active">Hide navigation</a>
+            </div>
+            <div class="plyr__video-embed" id="player">
+              <iframe width="700" height="400" src="https://www.youtube.com/watch?v=unU9vpLjHRk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="lx-card">
+              <a class="accordion"><strong>Description</strong></a>
+              <div class="panel">
+                <p style="color: #9ACD32"><strong>&check; Work Hard on Every Waking hour.</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="navColumn" class="lx-column is-active">
+          <div class="lx-row">
+            <div class="lx-card">
+              <div class="title">
+                <h2>Video Details</h2>
+              </div>
+              <div class="accordions">
+                <a class="accordion"><strong>Goals</strong></a>
+                <div class="panel">
+                  <p style="color: #ee5253"><strong>This Video is about how Elon musk achieved his goals by working hard.</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- partial -->
+  <script src='https://cdn.plyr.io/3.6.2/plyr.js'></script><script  src="./script.js"></script>
+</body>
+</html>

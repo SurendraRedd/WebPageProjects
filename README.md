@@ -3,3 +3,6 @@ This Repository contains the details of all the Web Page projects using HTML,CSS
 
 # Demo - Play_Video_HTML
 ![](/Demo.jpg)
+
+# Demo - Parallax_demo
+![](/parallaxdemo.jpg)
